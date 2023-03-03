@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.img-holder {
+  height: 30vmax;
+  width: 35vmax;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.text h1 {
+  font-size: 6vmax;
+}
+.text button {
+  background-color: rgb(206, 237, 254);
+}
+.text {
+  margin-left: 4vmax;
+  margin-top: 3vmax;
+}
+form {
+  background-color: rgb(234, 243, 251);
+  border-radius: 1em;
+}
